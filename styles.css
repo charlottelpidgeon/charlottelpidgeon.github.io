@@ -1,0 +1,64 @@
+
+body
+{
+    background-color: pink;
+    font-family: garamond;
+}
+
+#first
+{
+    text-align:center;
+}
+
+#title
+{
+    text-align:center;
+}
+
+h2
+{
+     text-decoration: underline;
+}
+
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#evtriv
+{
+    text-align:center;
+}
+
+/*this is for the previous button*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous {
+  background-color: #ff0066;
+  color: black;
+}
+
+/*emojis*/
+#heart
+{
+    text-align:center;
+}
+
+#title
+{
+    padding:50px;
+    background:#ff0066;
+}
